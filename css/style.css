@@ -23,7 +23,10 @@ a {
   margin-bottom: 0px;
 }
 
+.div-block-3{
 
+  display: none;
+}
 
 .utility-page-wrap {
   display: -webkit-box;
