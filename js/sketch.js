@@ -213,13 +213,15 @@ function preload() {
   startSound = loadSound("sounds/start.mp3");
   rightSound = loadSound("sounds/correct.wav");
   wrongSound = loadSound("sounds/wrong.wav");
+
+  init();
 }
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.hide();
 
-  init();
+  
   frameRate(30);
 }
 

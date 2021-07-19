@@ -25,7 +25,7 @@ a {
 
 .div-block-3{
 
-  display: none;
+  display: none !important;
 }
 
 .utility-page-wrap {
